@@ -1,0 +1,28 @@
+@CHARSET "UTF-8";
+table.autotopo {
+	border-width: 0px;
+	border-spacing: 0px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: white;
+	line-height : 0px;
+	margin: 0px 0px 0px 0px;
+	/* The line below wacks out the "twentyeleven" theme.  Seems wrong too.  I'm not a CSS expert. */
+	width : 200px !important; 
+}
+
+table.autotopo td {
+	border-width : 0px !important;
+	padding: 0px !important;
+	border-style: none;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: 0px 0px 0px 0px;
+}
+
+table.autotopo td img{
+	border-width : 0px !important;
+	margin: 0;
+	padding: 0;
+}
